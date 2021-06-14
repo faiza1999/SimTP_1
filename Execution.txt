@@ -1,4 +1,5 @@
 etats<-c(1,2,3)
 mu<-c(0.2,0.5,0.3)
 p<-matrix(c(0.6,0.3,0.1,0.3,0.3,0.4,0.4,0.1,0.5),ncol=length(etats),byrow=T)
-nb_rep<-80
+nb_rep<-60
+ChMarkov(etats,mu,p,nb_rep)
