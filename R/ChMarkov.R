@@ -6,7 +6,6 @@
 #'
 #'
 #'
-#'
 #' @param etats   Le vecteur des etats de la chaine
 #' @param mu      La disttibution intiale
 #' @param nb_rep  Le nom de repetition des trasitions
